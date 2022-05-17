@@ -1,0 +1,26 @@
+.link a {
+  color: #fff;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  text-transform: capitalize;
+}
+
+.link a img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+
+.link {
+  animation: bounceIn 1s;
+  -webkit-animation: bounceIn 1s;
+}
