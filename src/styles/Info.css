@@ -1,8 +1,6 @@
-.links {
+.info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 0.5rem;
-
+  align-items: center;
   margin: 1rem;
 }

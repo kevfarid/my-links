@@ -19,8 +19,23 @@
   -o-border-radius: 50%;
 }
 
-
 .link {
+
+  padding: 0 1rem;
+
   animation: bounceIn 1s;
   -webkit-animation: bounceIn 1s;
+}
+
+.link:hover {
+  transition: 0.2s;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
 }

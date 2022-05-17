@@ -1,0 +1,19 @@
+.about {
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+  -webkit-animation: fadeIn 1s ease-in-out;
+}
+
+.about h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.about p {
+  margin: 0;
+}
+
+.about span {
+  font-weight: bold;
+}
